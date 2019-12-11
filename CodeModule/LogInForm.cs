@@ -14,15 +14,20 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace CodeModule
 {
-    public partial class Form1 : Form
+    public partial class LogInForm : Form
     {
-        public Form1()
+        public LogInForm()
         {
             InitializeComponent();
             CodeModuleDBDataSet dbContext = new CodeModuleDBDataSet();
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
